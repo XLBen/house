@@ -1,0 +1,12 @@
+{
+  "price_min": 200000,
+  "price_max": 300000,
+  "max_properties": 8,
+  "postcodes": [
+    {"name": "Surrey Quays", "postcode": "SE16 2UG", "radius_km": 2.0},
+    {"name": "Bermondsey / London Bridge", "postcode": "SE1 2TH", "radius_km": 2.0},
+    {"name": "Wapping", "postcode": "E1W 1YN", "radius_km": 2.0},
+    {"name": "Whitechapel", "postcode": "E1 6AN", "radius_km": 2.0},
+    {"name": "Canary Wharf", "postcode": "E14 5AB", "radius_km": 2.0}
+  ]
+}
