@@ -129,6 +129,8 @@ cd frontend && npm run test
 
 ## GitHub Actions 自动同步
 
+完整部署教程见 [docs/github-actions-tutorial.md](docs/github-actions-tutorial.md)。
+
 `.github/workflows/daily-sync.yml` 每天通过 GitHub Actions 执行三次 OTM 同步，结果写回 `data/ukhouse.db` 并自动提交。报告筛选配置在隐藏目录 `.automation/targets.json`，默认以 Surrey Quays 为首，筛选伦敦中心附近、**£300,000 以下且按性价比排序**（低于所在区域均价越多、带降价/新房标记越靠前）的房源。
 
 首次启用前需要把数据库纳入仓库：
